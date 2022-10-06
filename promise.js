@@ -23,7 +23,7 @@ let electionResult = {
 };
 
 // fetch .then
-// electionResult.votingData().then((res) => console.log(res));
+electionResult.votingData().then((res) => res);
 
 // AsyncFunction
 let votes = async () => {
